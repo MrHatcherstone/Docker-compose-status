@@ -15,9 +15,9 @@ sudo ./check.sh
 sudo -u dockerUser ./check.sh
 ```
 
+
+
 Script could be used in CI/CD pipelines, that's why it has line #11
 ```bash
 exit 1
 ```
-
-If it not necessary to exit the script if service is not Up, you are free to comment this line
